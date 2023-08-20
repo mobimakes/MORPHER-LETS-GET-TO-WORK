@@ -1002,7 +1002,6 @@
                             document.getElementById('bookmark').addEventListener('click', async () => {
                                 document.getElementById('bookmark').value = 'Submitting...';
                                 await new Promise(r => setTimeout(r, 1000));
-                                alert('Morpher Asset Addition Form\n\nYour form has been saved, to submit it drag the button to your bookmarks tab and go to your Discord server to submit the form by pressing the "Submit Form" bookmark.\n\nEnable your bookmarks bar by pressing CTRL+SHIFT+B (Windows) or CMD+SHIFT+B (macOS).');
 
                                 document.getElementById('bookmark').value = 'Drag me to your bookmarks';
                             });
